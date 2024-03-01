@@ -1,0 +1,41 @@
+@import "../node_modules/mini.css/dist/mini-dark.css";
+
+form {
+  place-self: center;
+  width: 660px;
+}
+
+.contact-container {
+  display: grid;
+}
+
+html,
+body,
+#root,
+.container,
+.center-page {
+  height: 100%;
+}
+
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: transparent;
+  backdrop-filter: saturate() blur();
+  color: aliceblue;
+  background-image: url("https://miro.medium.com/max/1456/1*VSviDuxEIw1XIXhPCVmrBA.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
